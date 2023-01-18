@@ -1,0 +1,38 @@
+body{
+    margin: 30px;
+    padding: 100px;
+    border: 3px solid cyan;
+    text-align: center;
+    background-color: rgb(215, 245, 169);
+}
+#heading-div{
+    font-size: 30px;
+    background-color: darkgreen;
+    color: rgb(43, 0, 255);
+}
+#banner{
+    display: inline;
+    
+}
+#steps{
+    display: inline-block;
+}
+#step{
+    list-style: none;
+}
+#ing-div{
+    display: inline-block;
+    /* border: 2px solid black;
+    margin-bottom: 10px;
+    padding: 5px; */
+}
+#ing-heading{
+    background-color: darkcyan;
+}
+ul>li , ol>li{
+    font-size: 20px;
+}
+#div1{
+    border: 10px solid red;
+    border-radius: 90px 90px 90px 90px;
+}
