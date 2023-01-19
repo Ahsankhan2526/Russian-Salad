@@ -1,6 +1,6 @@
 body{
     margin: 30px;
-    padding: 100px;
+    padding: 50px;
     border: 3px solid cyan;
     text-align: center;
     background-color: rgb(215, 245, 169);
@@ -14,20 +14,24 @@ body{
     display: inline;
     
 }
-#steps{
-    display: inline-block;
-}
-#step{
-    list-style: none;
-}
+
 #ing-div{
     display: inline-block;
     /* border: 2px solid black;
     margin-bottom: 10px;
     padding: 5px; */
 }
-#ing-heading{
+#steps-div{
+    display: inline-block;
+    border: 1px solid black;
+    text-align: left;
+}
+.ing-heading{
     background-color: darkcyan;
+}
+.steps-heading{
+    background-color: darkcyan;
+    text-align: center;
 }
 ul>li , ol>li{
     font-size: 20px;
@@ -35,4 +39,11 @@ ul>li , ol>li{
 #div1{
     border: 10px solid red;
     border-radius: 90px 90px 90px 90px;
+}
+p{
+    font-size: 20px;
+}
+ol>li{
+    font-size: 22px;
+    font-weight: bold;
 }
