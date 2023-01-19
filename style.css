@@ -1,49 +1,71 @@
-body{
+body {
     margin: 30px;
-    padding: 50px;
+    padding: 20px 50px 20px 50px;
     border: 3px solid cyan;
     text-align: center;
     background-color: rgb(215, 245, 169);
 }
-#heading-div{
+
+#heading-div {
     font-size: 30px;
     background-color: darkgreen;
     color: rgb(43, 0, 255);
 }
-#banner{
+
+#banner {
     display: inline;
-    
+
 }
 
-#ing-div{
+#ing-div {
     display: inline-block;
     /* border: 2px solid black;
     margin-bottom: 10px;
     padding: 5px; */
 }
-#steps-div{
-    display: inline-block;
+
+#steps-div {
+    /* display: inline-block; */
     border: 1px solid black;
     text-align: left;
+
+    width: 110%;
 }
-.ing-heading{
+
+#cups {
+    /* display: inline; */
+}
+
+
+#abc {
+    text-align: left;
+    display: inline-flex;
+}
+
+.ing-heading {
     background-color: darkcyan;
 }
-.steps-heading{
+
+.steps-heading {
     background-color: darkcyan;
     text-align: center;
 }
-ul>li , ol>li{
+
+ul>li,
+ol>li {
     font-size: 20px;
 }
-#div1{
+
+#div1 {
     border: 10px solid red;
     border-radius: 90px 90px 90px 90px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-ol>li{
+
+ol>li {
     font-size: 22px;
     font-weight: bold;
 }
